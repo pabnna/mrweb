@@ -1,4 +1,5 @@
 @charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 
 @font-face {
@@ -21,7 +22,7 @@ body {
 #header{
 	position: relative; 
 } 
-#logonuevo{
+.logonuevo{
 	position: fixed;
     top: 0px;
 	right: 8%;
@@ -168,7 +169,7 @@ h5 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 140%;
+    font-size: 106%;
 	border-radius: 10px;
 	font-weight: normal;
 
@@ -426,7 +427,7 @@ h3 {
 	padding-bottom: 5%;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-top: 4%;
+	margin-top: 4%;
 	background:#FFFFFF;
 }
 
@@ -452,6 +453,7 @@ h3 {
 
 .caja_cabecera:hover {
 	background: #CCC;
+	cursor: pointer;
 }
 .caja_cuerpo {
 	margin-left:auto;
