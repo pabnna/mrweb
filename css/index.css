@@ -18,50 +18,54 @@ body {
 	position: relative;
 	text-align: center;
 	font-family: Caviar Dreams;
-} 
+}
 #header{
-	position: relative; 
-} 
+	position: relative;
+}
 .logonuevo{
 	position: fixed;
-    top: 0px;
+	top: 0px;
 	right: 8%;
+	max-width: 160px;
+	min-width: 60px;
+	width: 18%;
+	height: auto;
 	z-index: 1;
-} 
+}
 h1 {
-	font-family: Caviar Dreams; 
+	font-family: Caviar Dreams;
 	text-align: center;
-    color:#6a6774; 
+    color:#6a6774;
 	font-weight: normal;
 }
 h2 {
 	position: absolute;
 	bottom: 19%;
 	left: 28%;
-	width: 50%; 
-	right: 20%; 
+	width: 50%;
+	right: 20%;
 	display: block;
 	color: #d4d2d4;
 	font-weight: normal;
 }
 h4 {
 	text-align: justify;
-	color:#6a6774; 
+	color:#6a6774;
 	font-family: "Caviar Dreams";
 	font-size: 18px;
 	line-height: 1.5;
 	font-weight: normal;
 	margin-left: 10%;
     margin-right: 10%;
-} 
+}
 
 h5 {
-	
+
 	text-align: center;
-	font-weight: normal;	
-	color:#4B4B4B; 
+	font-weight: normal;
+	color:#4B4B4B;
 	font-size: 20px;
-} 
+}
 #mainmenu {
 	position: fixed;
 	display: flex;
@@ -173,7 +177,7 @@ h5 {
 	border-radius: 10px;
 	font-weight: normal;
 
-	
+
 }
 .subcabecera {
     margin-top: 6%;
@@ -360,7 +364,7 @@ h3 {
 
 .texto_derecha{
 	background: none !important;
-	float:right; 
+	float:right;
 	width:70%;
 }
 
@@ -368,7 +372,7 @@ h3 {
 	position: relative;
 	right: 18vw;
 	display: block;
-	width: 76vw;	
+	width: 76vw;
 }
 
 #aranjuez {
