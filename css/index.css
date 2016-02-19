@@ -35,7 +35,7 @@ body {
 h1 {
 	font-family: Caviar Dreams;
 	text-align: center;
-    color:#6a6774;
+	color:#6a6774;
 	font-weight: normal;
 }
 h2 {
@@ -56,7 +56,7 @@ h4 {
 	line-height: 1.5;
 	font-weight: normal;
 	margin-left: 10%;
-    margin-right: 10%;
+	margin-right: 10%;
 }
 
 h5 {
@@ -70,30 +70,34 @@ h5 {
 	position: fixed;
 	display: flex;
 	justify-content: center;
+	box-sizing: padding-box;
 	padding: 20px 0px;
-    top: 0px;
-    list-style-type: none;
-    margin: 0;
+	top: 0px;
+	list-style-type: none;
+	margin: 0;
 	width: 100%;
-    overflow: hidden;
-    background-color: #e3c5ea;
+	overflow: hidden;
+	background-color: #e3c5ea;
 	z-index: 1;
+	padding-left: 106px;
+	padding-right: 24%;
+	flex-wrap: wrap;
 }
 
 #mainmenu li {
-    float: left;
+	float: left;
 }
 
 #mainmenu li a {
-    display: inline-block;
-    color: #565656;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: inline-block;
+	color: #565656;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 #mainmenu li a:hover {
-    background-color: #D48FE5;
+	background-color: #D48FE5;
 }
 #socialmedia {
 	width: 86px;
@@ -166,21 +170,21 @@ h5 {
 	font-family: "Julius Sans One";
 }
 .button {
-    background-color: #dff759;
-    border: none;
-    color: #6a6774;
-    padding: 5% 5%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 106%;
+	background-color: #dff759;
+	border: none;
+	color: #6a6774;
+	padding: 5% 5%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 106%;
 	border-radius: 10px;
 	font-weight: normal;
 
 
 }
 .subcabecera {
-    margin-top: 6%;
+	margin-top: 6%;
 	margin-left: 7%;
 	margin-right: 7%;
 	margin-bottom: 7%;
@@ -468,4 +472,11 @@ h3 {
 }
 .caja_cuerpo.caja_cuerpo_background {
 	background:#E3E3E3 !important;
+}
+
+
+@media (max-width:601px) {
+	#mainmenu {
+
+	}
 }
