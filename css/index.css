@@ -18,54 +18,64 @@ body {
 	position: relative;
 	text-align: center;
 	font-family: Caviar Dreams;
-}
+} 
 #header{
-	position: relative;
-}
+	position: relative; 
+} 
 .logonuevo{
 	position: fixed;
-	top: 0px;
+    top: 0px;
 	right: 8%;
-	max-width: 160px;
-	min-width: 60px;
-	width: 18%;
-	height: auto;
 	z-index: 1;
-}
-h1 {
-	font-family: Caviar Dreams;
+} 
+h1.h1maria {
+	font-family: Caviar Dreams; 
 	text-align: center;
-    color:#6a6774;
+    color:#6a6774; 
 	font-weight: normal;
 }
-h2 {
+
+h2.h2portada {
+    font-size: 2em;
+    position: absolute;
+    bottom: 21%;
+    left: 44%;
+    width: 50%;
+    /* right: 19%; */
+    display: block;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+h2.h2maria {
+	font-size: 1.5em;
 	position: absolute;
-	bottom: 19%;
+	bottom: 18%;
 	left: 28%;
-	width: 50%;
-	right: 20%;
+	width: 50%; 
+	right: 20%; 
 	display: block;
 	color: #d4d2d4;
 	font-weight: normal;
 }
-h4 {
+h4.h4maria {
 	text-align: justify;
-	color:#6a6774;
+	color:#6a6774; 
 	font-family: "Caviar Dreams";
 	font-size: 18px;
 	line-height: 1.5;
 	font-weight: normal;
 	margin-left: 10%;
     margin-right: 10%;
-}
+} 
 
-h5 {
-
+h5.h5maria {
+	
 	text-align: center;
-	font-weight: normal;
-	color:#4B4B4B;
+	font-weight: normal;	
+	color:#4B4B4B; 
 	font-size: 20px;
-}
+} 
 #mainmenu {
 	position: fixed;
 	display: flex;
@@ -160,12 +170,12 @@ h5 {
 	100% {height: 40%; width: 40%; margin-left: 2%;  margin-right: 2%;  margin-top:0%; margin-bottom:0%;}
 }
 
-.menu {
+menu.menumaria {
 	background: #099;
 	color: #FFFFFF;
 	font-family: "Julius Sans One";
 }
-.button {
+button.buttonmaria {
     background-color: #dff759;
     border: none;
     color: #6a6774;
@@ -177,7 +187,7 @@ h5 {
 	border-radius: 10px;
 	font-weight: normal;
 
-
+	
 }
 .subcabecera {
     margin-top: 6%;
@@ -185,17 +195,13 @@ h5 {
 	margin-right: 7%;
 	margin-bottom: 7%;
 	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	justify-content: center;
 }
 .loqueosvaisaencontrar {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 10px;
-}
-.loqueosvaisaencontrar > img{
-	height: 40px;
+	width: 100%;
 }
 
 #presentacion{
@@ -265,7 +271,7 @@ h5 {
 	text-align: center !important;
 }
 
-h3 {
+h3.h3maria {
 	display: block;
 	font-size: 36px;
 	-webkit-margin-before: 0.67em;
@@ -368,7 +374,7 @@ h3 {
 
 .texto_derecha{
 	background: none !important;
-	float:right;
+	float:right; 
 	width:70%;
 }
 
@@ -376,7 +382,7 @@ h3 {
 	position: relative;
 	right: 18vw;
 	display: block;
-	width: 76vw;
+	width: 76vw;	
 }
 
 #aranjuez {
