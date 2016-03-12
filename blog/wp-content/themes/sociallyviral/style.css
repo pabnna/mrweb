@@ -136,7 +136,7 @@ td, th { padding: 0 }
 /*--------------------------------------------------------------
 2.1 Typography
 --------------------------------------------------------------*/
-body, button, input, select, textarea { font-family: "Roboto", sans-serif; color: #707070; font-size: 16px; font-size: 1rem; line-height: 1.5; }
+body, button, input, select, textarea { font-family: "Roboto", sans-serif; color: #000000; font-size: 16px; font-size: 1rem; line-height: 1.5; }
 h1, h2, h3, h4, h5, h6 { margin: 0; clear: both; color: #555; font-weight: normal; margin-bottom: 12px; }
 h1 { font-family: Caviar Dreams; font-size: 38px; line-height: 1.1; }
 h2 { font-family: Caviar Dreams; font-size: 34px; line-height: 1.2; }

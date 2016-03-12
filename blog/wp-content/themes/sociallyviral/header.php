@@ -75,6 +75,7 @@
 	<?php }
 
 	wp_head(); ?>
+<meta name="google-site-verification" content="n8UYSTchH9M6NiZ61zHDqHfQoJ-vpdtYOmnRNAVN7KE" />
 
 </head>
 
@@ -106,23 +107,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 	 <ul id="mainmenu">
 
-		  <li><a href="index.html">INICIO</a></li>
+		  <li><a href="http://mariaramosrodriguez.com/index.html">INICIO</a></li>
 
-		  <li><a href="ciudades.html">CIUDADES</a></li>
+		  <li><a href="http://mariaramosrodriguez.com/ciudades.html">CIUDADES</a></li>
 
-		  <li><a href="loquesehacer.html">LO QUE SÉ HACER</a></li>
+		  <li><a href="http://mariaramosrodriguez.com/loquesehacer.html">LO QUE SÉ HACER</a></li>
 
-		  <li><a href="http://lahuerfanaprofesional.blogspot.ie/" target="_blank">BLOG</a></li>
+		  <li><a href="http://mariaramosrodriguez.com/blog">BLOG</a></li>
 
 		  <li><a href="#contacto">CONTACTO</a></li>
 
 	</ul>
 
 	  <div class="logonuevo" style="left:0%; top:3.2%; width:150px;">
-
-	<a href="index.html"><img src="http://mariaramosrodriguez.com/imagenes/espanol.png" alt="Optioin Spanish language"></a>
-
-	<a href="indexingles.html"><img src="http://mariaramosrodriguez.com/imagenes/english.png" alt="Optioin English language"></a>
 
 	 </div>
 
