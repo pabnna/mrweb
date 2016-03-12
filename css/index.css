@@ -18,92 +18,92 @@ body {
 	position: relative;
 	text-align: center;
 	font-family: Caviar Dreams;
-} 
+}
 #header{
-	position: relative; 
-} 
+	position: relative;
+}
 .logonuevo{
 	position: fixed;
-    top: 0px;
+	top: 0px;
 	right: 8%;
 	z-index: 1;
-} 
+}
 h1.h1maria {
-	font-family: Caviar Dreams; 
+	font-family: Caviar Dreams;
 	text-align: center;
-    color:#6a6774; 
+	color:#6a6774;
 	font-weight: normal;
 }
 
 h2.h2portada {
-    font-size: 2em;
-    position: absolute;
-    bottom: 13%;
-    left: 44%;
-    width: 50%;
-    /* right: 19%; */
-    display: block;
-    color: #ffffff;
-    font-weight: normal;
+	font-size: 2em;
+	position: absolute;
+	bottom: 21%;
+	left: 44%;
+	width: 50%;
+	/* right: 19%; */
+	display: block;
+	color: #ffffff;
+	font-weight: normal;
 }
 
 h2.h2maria {
 	font-size: 1.5em;
 	position: absolute;
-	bottom: 19%;
+	bottom: 18%;
 	left: 28%;
-	width: 50%; 
-	right: 20%; 
+	width: 50%;
+	right: 20%;
 	display: block;
 	color: #d4d2d4;
 	font-weight: normal;
 }
 h4.h4maria {
 	text-align: justify;
-	color:#6a6774; 
+	color:#6a6774;
 	font-family: "Caviar Dreams";
 	font-size: 18px;
 	line-height: 1.5;
 	font-weight: normal;
 	margin-left: 10%;
-    margin-right: 10%;
-} 
+	margin-right: 10%;
+}
 
 h5.h5maria {
-	
+
 	text-align: center;
-	font-weight: normal;	
-	color:#4B4B4B; 
+	font-weight: normal;
+	color:#4B4B4B;
 	font-size: 20px;
-} 
+}
 #mainmenu {
 	position: fixed;
 	display: flex;
 	justify-content: center;
 	padding: 20px 0px;
-    top: 0px;
-    list-style-type: none;
-    margin: 0;
+	top: 0px;
+	list-style-type: none;
+	margin: 0;
 	width: 100%;
-    overflow: hidden;
-    background-color: #e3c5ea;
+	overflow: hidden;
+	background-color: #e3c5ea;
 	z-index: 1;
 }
 
 #mainmenu li {
-    float: left;
+	float: left;
 }
 
 #mainmenu li a {
-    display: inline-block;
-    color: #565656;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: inline-block;
+	color: #565656;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 #mainmenu li a:hover {
-    background-color: #D48FE5;
+	background-color: #D48FE5;
 }
 #socialmedia {
 	width: 86px;
@@ -176,21 +176,21 @@ menu.menumaria {
 	font-family: "Julius Sans One";
 }
 button.buttonmaria {
-    background-color: #dff759;
-    border: none;
-    color: #6a6774;
-    padding: 5% 5%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 106%;
+	background-color: #dff759;
+	border: none;
+	color: #6a6774;
+	padding: 5% 5%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 106%;
 	border-radius: 10px;
 	font-weight: normal;
 
-	
+
 }
 .subcabecera {
-    margin-top: 6%;
+	margin-top: 6%;
 	margin-left: 7%;
 	margin-right: 7%;
 	margin-bottom: 7%;
@@ -374,7 +374,7 @@ h3.h3maria {
 
 .texto_derecha{
 	background: none !important;
-	float:right; 
+	float:right;
 	width:70%;
 }
 
@@ -382,7 +382,7 @@ h3.h3maria {
 	position: relative;
 	right: 18vw;
 	display: block;
-	width: 76vw;	
+	width: 76vw;
 }
 
 #aranjuez {
@@ -454,10 +454,9 @@ h3.h3maria {
 
 #contacto{
 	padding-bottom: 5%;
-	padding-top: 6%;
-	margin-right: 3%;
-    margin-left: 3%;
-	margin-top:5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 4%;
 
 }
 .fixed-top-left {
