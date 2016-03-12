@@ -1,0 +1,9 @@
+CNAME Record	
+www
+parkingpage.namecheap.com.
+30 min
+Remove
+URL Redirect Record	
+@
+http://www.destinationmarketers.org/
+Unmasked
