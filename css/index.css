@@ -10,100 +10,172 @@ body {
 	margin: 0px;
 	font-family: Caviar Dreams;
 }
-#herramientas table tr td p {
-	text-align: right;
-}
 
+hr { 
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: inset;
+    border-width: 2px;
+}
+hr.hr2 { 
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 30%;
+    margin-right: 30%;
+	border-color: #fff;
+    border-width: 2px;
+}
 #portada {
 	position: relative;
 	text-align: center;
 	font-family: Caviar Dreams;
-}
+} 
 #header{
-	position: relative;
-}
+	position: relative; 
+} 
 .logonuevo{
 	position: fixed;
-	top: 0px;
+    top: 0px;
 	right: 8%;
 	z-index: 1;
+} 
+a {
+	color: #000000; 
 }
-h1.h1maria {
-	font-family: Caviar Dreams;
+p {
+	color: #6a6774;
 	text-align: center;
-	color:#6a6774;
-	font-weight: normal;
+	margin-left:auto;
+	margin-right: auto;
+	line-height: 200%;
+	font-size: 120%;
+	max-width: 749px;	
+}
+.parrafo1{
+	margin-left: 6%;
+	margin-right: 6%;
+	text-align: justify;
+	line-height: 200%;
+	font-size: 120%;
+	max-width: 749px;
+}
+.parrafo2{
+	text-align: justify;
+	line-height: 200%;
+	font-size: 120%;
+	max-width: 350px;   
+	min-width: 250px;
 }
 
-h2.h2portada {
-	font-size: 2em;
+h1.h1portada {
+	font-size: 1.5em;
 	position: absolute;
-	bottom: 21%;
-	left: 44%;
-	width: 50%;
-	/* right: 19%; */
+	bottom: 19%;
+	left: 28%;
+	width: 50%; 
+	right: 20%; 
 	display: block;
-	color: #ffffff;
+	color: #d4d2d4;
 	font-weight: normal;
+}
+h2{
+	font-family: Caviar Dreams; 
+	text-align: center;
+    color:#6a6774; 
+	font-weight: normal;
+	font-size: 2em;
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+h1.h1maria {
+	font-family: Caviar Dreams; 
+	text-align: center;
+    color:#6a6774; 
+	font-weight: normal;
+}
+h2.h2portada {
+    font-size: 2em;
+    position: absolute;
+    bottom: 13%;
+    left: 44%;
+    width: 50%;
+    /* right: 19%; */
+    display: block;
+    color: #ffffff;
+    font-weight: normal;
 }
 
 h2.h2maria {
 	font-size: 1.5em;
 	position: absolute;
-	bottom: 18%;
+	bottom: 19%;
 	left: 28%;
-	width: 50%;
-	right: 20%;
+	width: 50%; 
+	right: 20%; 
 	display: block;
 	color: #d4d2d4;
 	font-weight: normal;
 }
+h3.h3maria {
+	display: block;
+	font-size: 36px;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: normal;
+	margin-bottom: 5%;
+}
 h4.h4maria {
 	text-align: justify;
-	color:#6a6774;
+	color:#6a6774; 
 	font-family: "Caviar Dreams";
 	font-size: 18px;
 	line-height: 1.5;
 	font-weight: normal;
 	margin-left: 10%;
-	margin-right: 10%;
-}
+    margin-right: 10%;
+} 
 
 h5.h5maria {
-
+	
 	text-align: center;
-	font-weight: normal;
-	color:#4B4B4B;
+	font-weight: normal;	
+	color:#4B4B4B; 
 	font-size: 20px;
-}
+} 
 #mainmenu {
 	position: fixed;
 	display: flex;
 	justify-content: center;
 	padding: 20px 0px;
-	top: 0px;
-	list-style-type: none;
-	margin: 0;
+    top: 0px;
+    list-style-type: none;
+    margin: 0;
 	width: 100%;
-	overflow: hidden;
-	background-color: #e3c5ea;
+    overflow: hidden;
+    background-color: #e3c5ea;
 	z-index: 1;
 }
 
 #mainmenu li {
-	float: left;
+    float: left;
 }
 
 #mainmenu li a {
-	display: inline-block;
-	color: #565656;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+    display: inline-block;
+    color: #565656;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 #mainmenu li a:hover {
-	background-color: #D48FE5;
+    background-color: #D48FE5;
 }
 #socialmedia {
 	width: 86px;
@@ -176,32 +248,35 @@ menu.menumaria {
 	font-family: "Julius Sans One";
 }
 button.buttonmaria {
-	background-color: #dff759;
-	border: none;
-	color: #6a6774;
-	padding: 5% 5%;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 106%;
+    background-color: #dff759;
+    border: none;
+    color: #6a6774;
+    padding: 5% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 106%;
 	border-radius: 10px;
 	font-weight: normal;
 
-
+	
 }
 .subcabecera {
-	margin-top: 6%;
-	margin-left: 7%;
-	margin-right: 7%;
+    margin-top: 6%;
+	margin-left: auto;
+	margin-right:auto;
 	margin-bottom: 7%;
 	display: flex;
 	justify-content: center;
 }
 .loqueosvaisaencontrar {
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right:10%;
+	margin-bottom: 7%;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 #presentacion{
@@ -215,6 +290,15 @@ button.buttonmaria {
 	background: #76C0CC;
 
 }
+
+.loquesehacer{
+	display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27%;
+
+}
+
 #menu-plegado {
 	color: #1e9fa5;
 	margin-left: 1%;
@@ -232,6 +316,24 @@ button.buttonmaria {
 #menu-ciudades ~ #sub-menu-ciudades {
 	font-size: 83%;
 }
+@media screen and (max-width: 480px) {
+	.logonuevo{
+		position: fixed;
+		top: 0px;
+		right: 8%;
+		z-index: 1;
+	}
+    .movil-display-none{
+		display: none;
+	}
+    #mainmenu.movil-display-none{
+		display: none;
+	}
+	.caja1{
+		margin-top: 45%;
+	}
+}
+
 .w3-theme {
 	color: #177C9B;
 	background-color: #76C0CC;
@@ -271,16 +373,6 @@ button.buttonmaria {
 	text-align: center !important;
 }
 
-h3.h3maria {
-	display: block;
-	font-size: 36px;
-	-webkit-margin-before: 0.67em;
-	-webkit-margin-after: 0.67em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	font-weight: normal;
-	margin-bottom: 5%;
-}
 
 .w3-opennav:hover, .w3-closenav:hover {
 	cursor: pointer;
@@ -312,12 +404,32 @@ h3.h3maria {
 .w3-card-2, .w3-example {
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
 }
-
+.caja1 {
+	background:#AF91AF;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #FFF;
+	margin-bottom; 8%; 
+}
+.caja2 {
+	padding-bottom: 8%;
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.caja3 {
+	display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
 #mapa {
 	background:#FFF;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top:8%;
 	text-align: center;
 }
 
@@ -374,7 +486,7 @@ h3.h3maria {
 
 .texto_derecha{
 	background: none !important;
-	float:right;
+	float:right; 
 	width:70%;
 }
 
@@ -382,7 +494,7 @@ h3.h3maria {
 	position: relative;
 	right: 18vw;
 	display: block;
-	width: 76vw;
+	width: 76vw;	
 }
 
 #aranjuez {
@@ -445,18 +557,23 @@ h3.h3maria {
 	background:#FFFFFF;
 }
 
-#herramientas{
+.herramientas{
 	background:#FFFFFF;
-	margin-left:auto;
-	margin-right: auto;
-	margin-bottom: auto;
+	margin-left:5%;
+	margin-right: 5%;
+	margin-top: 3%; 
+	justify-content: space-around; 
+	flex-wrap: wrap;
+	display: flex;
 }
+
 
 #contacto{
 	padding-bottom: 5%;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 4%;
+	padding-top: 6%;
+	margin-right: 3%;
+    margin-left: 3%;
+	margin-top:5%;
 
 }
 .fixed-top-left {
