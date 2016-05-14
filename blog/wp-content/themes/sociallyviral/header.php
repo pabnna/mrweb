@@ -19,42 +19,28 @@
 <html <?php language_attributes(); ?>>
 
 <head>  
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="Especialista en Marketing Digital,
-
-      Comunicacion y Redes Sociales y en creacion y optimizacion de
-
-      contenidos web">
-
+	
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<meta name="author" content="Maria Ramos Rodriguez">
 
-	<link rel="alternate" hreflang="en" href="http://www.mariaramosrodriguez.com/en/">
+	
+<link rel="alternate" hreflang="en" href="http://www.mariaramosrodriguez.com/en/">
+<link rel="stylesheet" type="text/css" href="http://mariaramosrodriguez.com/css/index.css">
 
-    <link rel="stylesheet" type="text/css" href="http://mariaramosrodriguez.com/css/index.css">
-
-    <style type="text/css">
-
-
-
+<style type="text/css">
 </style>
 
     <link rel="shortcut icon" href="http://mariaramosrodriguez.com/imagenes/logo_final.png">
 
-    <meta charset="utf-8">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
 
-    <title>Maria Ramos. Marketing y Comunicación Digital</title>
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/crushed:n4:default;abel:n4:default;abril-fatface:n4:default.js" type="text/javascript"></script>  	
 
-    <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-
-    <script>var __adobewebfontsappname__="dreamweaver"</script>
-
-    <script src="http://use.edgefonts.net/crushed:n4:default;abel:n4:default;abril-fatface:n4:default.js" type="text/javascript"></script>  	
-
-<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
@@ -77,29 +63,19 @@
 	wp_head(); ?>
 <meta name="google-site-verification" content="n8UYSTchH9M6NiZ61zHDqHfQoJ-vpdtYOmnRNAVN7KE" />
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68537569-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
-
-
 <body <?php body_class(); ?>>
-
- <!-- Google Tag Manager -->
-
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-542FDH"
-
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-
-})(window,document,'script','dataLayer','GTM-542FDH');</script>
-
-<!-- End Google Tag Manager -->
 
 <div id="portada">
 
@@ -111,14 +87,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 		  <li><a href="http://mariaramosrodriguez.com/ciudades.html">CIUDADES</a></li>
 
-		  <li><a href="http://mariaramosrodriguez.com/loquesehacer.html">LO QUE SÉ HACER</a></li>
+		  <li><a href="http://mariaramosrodriguez.com/lo-que-se-hacer.html">LO QUE SÉ HACER</a></li>
 
 		  <li><a href="http://mariaramosrodriguez.com/blog">BLOG</a></li>
 
 		  <li><a href="#contacto">CONTACTO</a></li>
 
 	</ul>
-
+		<div class="logonuevo" style="left:0%; top:3.2%; width:150px;">
+			<a href="http://mariaramosrodriguez.com/blog/"><img src="http://mariaramosrodriguez.com/imagenes/espanol.png" alt="Optioin Spanish language"></a>
+			<a href="http://mariaramosrodriguez.com/blog/en/"><img src="http://mariaramosrodriguez.com/imagenes/english.png" alt="Optioin English language"></a>
+		</div>
 	  <div class="logonuevo" style="left:0%; top:3.2%; width:150px;">
 
 	 </div>
