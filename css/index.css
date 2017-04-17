@@ -45,6 +45,7 @@ hr.hr2 {
 } 
 a {
 	color: #000000; 
+	text-decoration: none;
 }
 p {
 	color: #6a6774;
@@ -72,6 +73,17 @@ p {
 }
 
 h1.h1portada {
+	font-size: 1.5em;
+	position: absolute;
+	bottom: 19%;
+	left: 28%;
+	width: 50%; 
+	right: 20%; 
+	display: block;
+	color: #d4d2d4;
+	font-weight: normal;
+}
+h1#h1portada {
 	font-size: 1.5em;
 	position: absolute;
 	bottom: 19%;
@@ -157,7 +169,6 @@ h5.h5maria {
     list-style-type: none;
     margin: 0;
 	width: 100%;
-    overflow: hidden;
     background-color: #e3c5ea;
 	z-index: 1;
 }
@@ -175,8 +186,86 @@ h5.h5maria {
 }
 
 #mainmenu li a:hover {
-    background-color: #D48FE5;
+    color: #742786;
+	font-weight: bold; 
 }
+.dropbtn {
+			background-color: #e3c5ea;
+			color: #000000;
+			padding: 16px;
+			font-size: 16px;
+			border: none;
+			cursor: pointer;
+			font-family: Caviar Dreams;
+}
+
+.dropdown {
+			position: relative;
+			display: inline-block;
+}
+
+.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #e3c5ea;
+			min-width: 160px;
+			font-family: Caviar Dreams;
+}
+
+.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+}
+
+.dropdown-content a:hover {background-color: #e3c5ea}
+
+.dropdown:hover .dropdown-content {
+			display: block;
+}
+
+.dropdown:hover .dropbtn {
+			background-color: #e3c5ea;
+			background-color: #e3c5ea;
+}
+/*-----------------------------------------------------------------------------*/
+#menu-plegado {
+	color: #1E9FA5;
+	margin-left: 1%;
+}
+#menu-plegado ~ nav, #sub-menu-small {
+	display:none;
+}
+#menu-plegado:hover ~ nav,  #menu-plegado ~ nav:hover, #menu-small:hover ~ #sub-menu-small, #sub-menu-small:hover {
+	display:block;
+}
+.fixed-top-left {
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+.w3-opennav:hover,.w3-closenav:hover{
+	cursor:pointer;opacity:0.8
+}
+.w3-xlarge{
+	font-size:24px !important
+}
+.w3-sidenav a,.w3-dropnav a{
+	display:block;transition:.3s
+}
+.menu {
+	background: #E3C5EA;
+	color: #FFFFFF;
+	font-family: Caviar Dreams;;
+}
+#menu-small ~ #sub-menu-small {
+	font-size: 83%;
+}
+.w3-card-2,.w3-example{
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important
+}
+/*-----------------------------------------------------------------------------*/
 #socialmedia {
 	width: 86px;
 	float: right;
@@ -299,26 +388,9 @@ button.buttonmaria {
 
 }
 
-#menu-plegado {
-	color: #1e9fa5;
-	margin-left: 1%;
-}
-#menu-plegado ~ nav, #sub-menu-ciudades {
-	display:none;
-}
-#menu-plegado:hover ~ nav,  #menu-plegado ~ nav:hover, #menu-ciudades:hover ~ #sub-menu-ciudades, #sub-menu-ciudades:hover {
-	display:block;
-}
-#menu-plegado {
-	color: #ffffff;
-	margin-left: 1%;
-}
-#menu-ciudades ~ #sub-menu-ciudades {
-	font-size: 83%;
-}
 @media screen and (max-width: 480px) {
 	.logonuevo{
-		position: fixed;
+		position: absolute;
 		top: 0px;
 		right: 8%;
 		z-index: 1;
@@ -330,10 +402,51 @@ button.buttonmaria {
 		display: none;
 	}
 	.caja1{
-		margin-top: 45%;
+		margin-top: 0%;
+	}
+	#fotoportada{
+		display: none;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	.logonuevo{
+		position: absolute;
+		top: 0px;
+		right: 8%;
+		right: 8%;
+		z-index: 1;
+		margin-top: 5%;
+	}
+	#h1portada{
+		display: none;
+	}
+
+}
+@media screen and (min-width: 480px) {
+
+	#fotoportada2{
+		display: none;
 	}
 }
+@media screen and (min-width: 768px) {
 
+	#fotoportada2{
+		display: none;
+	}
+	#menu-movil{
+		display: none;
+	}
+
+}
+@media screen and (min-width: 480px) {
+
+	#fotoportada2{
+		display: none;
+	}
+
+}
+	
 .w3-theme {
 	color: #177C9B;
 	background-color: #76C0CC;

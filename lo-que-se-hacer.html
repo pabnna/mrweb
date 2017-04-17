@@ -48,13 +48,35 @@
   <body>
 	<div id="portada">
      <div id="header">
-	 <ul id="mainmenu" class="movil-display-none">
-		  <li><a href="index.html">INICIO</a></li>
-		  <li><a href="ciudades.html">CIUDADES</a></li>
-		  <li><a href="lo-que-se-hacer.html">LO QUE SÉ HACER</a></li>
-		  <li><a href="http://mariaramosrodriguez.com/blog">BLOG</a></li>
-		  <li><a href="#contacto">CONTACTO</a></li>
-	</ul>
+		<div id="mainmenu"class="movil-display-none">
+			<div class="dropdown">
+				<a href="index.html"><button class="dropbtn">INICIO</button></a>
+			</div>
+			<div class="dropdown">
+				<a href="ciudades.html"><button class="dropbtn">CIUDADES</button></a>
+			</div>
+			<div class="dropdown">
+			  <a href="lo-que-se-hacer.html"><button class="dropbtn">LO QUE SE HACER</button></a>
+				  <div class="dropdown-content">
+					<a href="seo.html">SEO</a>
+					<a href="contenidos.html">MARKETING DE CONTENIDOS</a>
+					<a href="rrss.html">REDES SOCIALES</a>
+				  </div>
+			</div>
+			<div class="dropdown">
+			  <a href="http://mariaramosrodriguez.com/blog/"><button class="dropbtn">BLOG</button></a>
+			  <div class="dropdown">
+					  <a href="http://mariaramosrodriguez.com/blog/"><button class="dropbtn">BLOG</button></a>
+					  	<div class="dropdown-content">
+							<a href="http://mariaramosrodriguez.com/blog/sobre-el-blog/">SOBRE EL BLOG</a>
+							<a href="http://mariaramosrodriguez.com/blog/destination-marketers/">DESTINATION MARKETERS</a>
+						</div>
+					</div>
+			</div>
+			<div class="dropdown">
+			  <a href="#contacto"><button class="dropbtn">CONTACTO</button></a>
+			</div>
+		</div>
 	<div class="logonuevo movil-display-none" style="left:1.8%; top:3.2%; width:150px;">
 	<a href="lo-que-se-hacer.html"><img src="imagenes/espanol.png"></a>
 	<a href="what-i-can-do.html"><img src="imagenes/english.png"></a>
@@ -64,16 +86,16 @@
 		<div>		
 			<img class="movil-display-none" src="imagenes/digitalmarketing.png" style= "margin-top: 11%; width: 50%;">
 				<div class="caja1">
-					<h1 class="h1maria" style="text-align: center; padding-top: 6%; color: #FFF; margin-top: -0.3%;">Servicios en Marketing Digital<br></h1>
+					<h1 class="h1maria" style="text-align: center; padding-top: 6%; color: #FFF; margin-top: -0.3%;">Posicionamiento en buscadores<br></h1>
 					<h5 class="h5maria" style="text-align: center; color:#FFF;">Si necesitas consejo para potenciar tu negocio u organización en Internet, te puedo ayudar con:<br>
 					</h5>
 					<hr class="hr2">
 						<div class="caja2">
 						<a href="seo.html"><img
 								src="imagenes/seo2.png" alt="SEO"></a>
-						<a href="marketing-contenidos.html"><img
+						<a href="contenidos.html"><img
 								src="imagenes/mk_contenidos.png" alt="SEO"></a>
-						<a href="redes-sociales.html"><img
+						<a href="rrss.html"><img
 								src="imagenes/rrss.png" alt="SEO"></a>
 						</div>
 				</div>
@@ -282,7 +304,7 @@
       <br>
       <br>
       <div class="w3-padding-32"> <a
-          href="imagenes/cv_es.pdf" target="_blank"
+          href="imagenes/MariaRamos_cv_es_2017-compressed.pdf" target="_blank"
           class="w3-btn w3-theme-dark fotocentrada"
           style="font-size:25px;">Descarga mi CV</a> </div>
     </div>

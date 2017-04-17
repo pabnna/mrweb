@@ -81,22 +81,35 @@
 
      <div id="header">
 
-	 <ul id="mainmenu">
-
-		  <li><a href="http://mariaramosrodriguez.com/index.html">INICIO</a></li>
-
-		  <li><a href="http://mariaramosrodriguez.com/ciudades.html">CIUDADES</a></li>
-
-		  <li><a href="http://mariaramosrodriguez.com/lo-que-se-hacer.html">LO QUE SÉ HACER</a></li>
-
-		  <li><a href="http://mariaramosrodriguez.com/blog">BLOG</a></li>
-
-		  <li><a href="#contacto">CONTACTO</a></li>
-
-	</ul>
+	 <div id="mainmenu"class="movil-display-none">
+			<div class="dropdown">
+				<a href="http://mariaramosrodriguez.com/index.html"><button class="dropbtn">INICIO</button></a>
+			</div>
+			<div class="dropdown">
+				<a href="http://mariaramosrodriguez.com/ciudades.html"><button class="dropbtn">CIUDADES</button></a>
+			</div>
+			<div class="dropdown">
+			  <a href="http://mariaramosrodriguez.com/lo-que-se-hacer.html"><button class="dropbtn">LO QUE SE HACER</button></a>
+				  <div class="dropdown-content">
+					<a href="http://mariaramosrodriguez.com/seo.html">SEO</a>
+					<a href="http://mariaramosrodriguez.com/contenidos.html">MARKETING DE CONTENIDOS</a>
+					<a href="http://mariaramosrodriguez.com/rrss.html">REDES SOCIALES</a>
+				  </div>
+			</div>
+			<div class="dropdown">
+			  <a href="http://mariaramosrodriguez.com/blog/"><button class="dropbtn">BLOG</button></a>
+				<div class="dropdown-content">
+					<a href="http://mariaramosrodriguez.com/blog/sobre-el-blog/">SOBRE EL BLOG</a>
+					<a href="http://mariaramosrodriguez.com/blog/destination-marketers/">DESTINATION 					MARKETERS</a>
+				</div>
+			</div>
+			<div class="dropdown">
+			  <a href="http://mariaramosrodriguez.com/#contacto"><button class="dropbtn">CONTACTO</button></a>
+			</div>
+		</div>
 		<div class="logonuevo" style="left:0%; top:3.2%; width:150px;">
-			<a href="http://mariaramosrodriguez.com/blog/"><img src="http://mariaramosrodriguez.com/imagenes/espanol.png" alt="Optioin Spanish language"></a>
-			<a href="http://mariaramosrodriguez.com/blog/en/"><img src="http://mariaramosrodriguez.com/imagenes/english.png" alt="Optioin English language"></a>
+			<a href="http://mariaramosrodriguez.com/blog/"><img src="http://mariaramosrodriguez.com/imagenes/espanol.png" alt="Option Spanish language"></a>
+			<a href="http://mariaramosrodriguez.com/blog/en/"><img src="http://mariaramosrodriguez.com/imagenes/english.png" alt="Option English language"></a>
 		</div>
 	  <div class="logonuevo" style="left:0%; top:3.2%; width:150px;">
 
@@ -106,7 +119,7 @@
 
 	  </div>
 
-		<img src="http://mariaramosrodriguez.com/imagenes/portadablog.png" alt="Portada blog Hazlo Personal Marketing" height="50%;" width="100%" style="margin-top: 95px;">
+		<img src="http://mariaramosrodriguez.com/imagenes/portadablog.png" alt="Portada blog Maria Ramos" height="50%;" width="100%" style="margin-top: 95px;">
 
 		<h2 class="h2portada">Utiliza las técnicas del mejor Digital Marketing para promocionar la más importante de las marcas, tu marca personal.</h2>
 
@@ -114,7 +127,7 @@
 
 		</div>      
 
-    </div>
+
 
 	<div id="page" class="hfeed site">
 
@@ -190,7 +203,7 @@
 
 					$sociallyviral_twt_url = get_theme_mod('sociallyviral_header_twitter');
 
-					$sociallyviral_gp_url = get_theme_mod('sociallyviral_header_google_plus');
+					$sociallyviral_gp_url = get_theme_mod('sociallyviral_header_linkedin');
 
 					$sociallyviral_yt_url = get_theme_mod('sociallyviral_header_youtube');
 
@@ -222,9 +235,9 @@
 
 					if(!empty($sociallyviral_gp_url)) { ?>
 
-						<a href="<?php echo esc_url(get_theme_mod('sociallyviral_header_google_plus')); ?>" class="header-google-plus">
+						<a href="<?php echo esc_url(get_theme_mod('sociallyviral_header_google_plus')); ?>" class="header-linkedin">
 
-							<i class="icon-google-plus"></i>
+							<i class="icon-linkedin"></i>
 
 						</a>
 

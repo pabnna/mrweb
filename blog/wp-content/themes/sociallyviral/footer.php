@@ -35,7 +35,8 @@
           href="http://mariaramosrodriguez.com/imagenes/cv.pdf" target="_blank"
           class="w3-btn w3-theme-dark fotocentrada"
           style="font-size:25px; font-family: Caviar Dreams;">Download my CV</a> </div>
-    </div>
+      </div>
+     <a href="https://ie.linkedin.com/in/sergiofernandezredondo/en"target="_blank">Translation supervised by Sergio Fernández</a>
 </div><!-- .main-container -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">

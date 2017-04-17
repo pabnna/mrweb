@@ -251,7 +251,7 @@ function wp_embed_handler_googlevideo( $matches, $attr, $url, $rawattr ) {
  */
 function wp_embed_handler_youtube( $matches, $attr, $url, $rawattr ) {
 	global $wp_embed;
-	$embed = $wp_embed->autoembed( "https://youtube.com/watch?v={$matches[2]}" );
+	$embed = $wp_embed->autoembed( sprintf( "https://youtube.com/watch?v=%s", urlencode( $matches[2] ) ) );
 
 	/**
 	 * Filter the YoutTube embed output.
@@ -1044,4 +1044,40 @@ function print_embed_sharing_dialog() {
 		</div>
 	</div>
 	<?php
+}
+
+/**
+ * Filters the oEmbed result before any HTTP requests are made.
+ *
+ * If the URL belongs to the current site, the result is fetched directly instead of
+ * going through the oEmbed discovery process.
+ *
+ * @since 4.5.3
+ *
+ * @param null|string $result The UNSANITIZED (and potentially unsafe) HTML that should be used to embed. Default null.
+ * @param string      $url    The URL that should be inspected for discovery `<link>` tags.
+ * @param array       $args   oEmbed remote get arguments.
+ * @return null|string The UNSANITIZED (and potentially unsafe) HTML that should be used to embed.
+ *                     Null if the URL does not belong to the current site.
+ */
+function wp_filter_pre_oembed_result( $result, $url, $args ) {
+	$post_id = url_to_postid( $url );
+
+	/** This filter is documented in wp-includes/class-wp-oembed-controller.php */
+	$post_id = apply_filters( 'oembed_request_post_id', $post_id, $url );
+
+	if ( ! $post_id ) {
+		return $result;
+	}
+
+	$width = isset( $args['width'] ) ? $args['width'] : 0;
+
+	$data = get_oembed_response_data( $post_id, $width );
+	$data = _wp_oembed_get_object()->data2html( (object) $data, $url );
+
+	if ( ! $data ) {
+		return $result;
+	}
+
+	return $data;
 }
